@@ -1,0 +1,445 @@
+<section class="mainmenu-area stricky">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                <!--Start mainmenu-->
+                <nav class="main-menu pull-left">
+                    <div class="navbar-header">   	
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                    </div>
+                    <div class="navbar-collapse collapse clearfix">
+                        <ul class="navigation clearfix">
+                            <li><a href="index.php">Home</a></li>
+
+                            <li class="dropdown"><a href="about.php">About Us</a>
+                                <ul>
+
+                                    <li><a href="about.php">Vision</a></li>
+                                    <li><a href="about.php">Mission</a></li>
+                                    <li><a href="about.php">Gallery</a></li>
+                                    <li><a href="about.php">About RMC</a></li>
+                                    
+                                    <!-- 
+                                        <li><a href="about.php">About Hospitals</a></li>
+                                        <li><a href="doctors.php">Meet Our Doctors</a></li>
+                                    <li><a href="faq.php">FAQ’s</a></li>
+                                    <li><a href="testimonials.php">Testimonials</a></li>
+                                    <li><a href="project.php">Our Gallery</a></li>
+                                    <li><a href="project-single.php">Gallery Single</a></li> -->
+                                </ul>
+                            </li>
+                            <li class="dropdown"><a href="services.php">Services</a>
+                                <ul>
+                                    <li><a href="cardiac-clinic.php">Emergency services</a></li>
+                                    <li><a href="cardiac-clinic.php">Outpatient Department</a></li>
+                                    <li><a href="cardiac-clinic.php">Inpatient Department</a></li>
+                                    <li><a href="cardiac-clinic.php">Intensive Care Unit</a></li>
+                                    <li><a href="cardiac-clinic.php">Operation theatre</a></li>
+                                    <li><a href="cardiac-clinic.php">Laboratory</a></li>
+                                    <li><a href="cardiac-clinic.php">Radiology</a></li>
+                                    <li><a href="cardiac-clinic.php">Ultra Sound - Color doppler</a></li>
+                                    <li><a href="cardiac-clinic.php">24-Hours Pharmacy</a></li>
+                                    <li><a href="cardiac-clinic.php">Physiotherapy</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="time-table.php">Find A Doctor</a></li>
+                            <li class="dropdown"><a href="departments.php">Departments</a>
+                                <ul>
+                                    <li><a href="cardiac-clinic.php">Cardiac Clinic</a></li>
+                                    <li><a href="pulmonology.php">Pulmonology</a></li>
+                                    <li><a href="gynecology.php">Gynecology</a></li>
+                                    <li><a href="neurology.php">Neurology</a></li>
+                                    <li><a href="urology.php">Urology</a></li>
+                                    <li><a href="gastrology.php">Gastrology</a></li>
+                                    <li><a href="pediatrician.php">Pediatrician</a></li>
+                                    <li><a href="laborotory.php">Laborotory</a></li>
+                                </ul>
+                            </li>
+
+                            <li><a href="index.php">Speciality</a></li>
+                            <!-- <li><a href="time-table.php">Time Table</a></li>
+                            <li class="dropdown"><a href="blog-default.php">News</a>
+                                <ul>
+                                    <li><a href="blog-default.php">News Default</a></li>
+                                    <li><a href="blog-large.php">News Large View</a></li>
+                                    <li><a href="blog-single.php">News Single Post</a></li>
+                                </ul>
+                            </li> -->
+                            <!-- <li class="dropdown"><a href="shop.php">Shop</a>
+                                <ul>
+                                    <li><a href="shop.php">Shop Products</a></li>
+                                    <li><a href="shop-single.php">Products Single</a></li>
+                                    <li><a href="shopping-cart.php">Shopping Cart</a></li>
+                                    <li><a href="checkout.php">Checkout</a></li>
+                                    <li><a href="account.php">My Account</a></li>
+                                </ul>
+                            </li> -->
+                            <li><a href="index.php">Corporate Clients</a></li>
+                            <li><a href="contact.php">Contact Us</a></li>
+                        </ul>
+                        
+                    </div>
+                </nav>
+                <!--End mainmenu-->
+                <!--Start mainmenu right box-->
+                <div class="mainmenu-right-box pull-right">
+                    <!-- <div class="cart_select">
+                        <button><i class="fa fa-shopping-cart" aria-hidden="true"></i><span>(0)</span></button>
+                    </div> -->
+                    <div class="consultation-button">
+                        <a href="#">MAKE APPOINTMENT</a>    
+                    </div>
+                </div>
+                <!--End mainmenu right box-->    
+            </div>
+        </div>
+    </div>
+</section>
+
+
+----------------------------------------------------
+<section class="facilities-appointment-area">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8">
+                <div class="facilities-content-box">
+                    <div class="sec-title">
+                        <h1>Our Facilities</h1>
+                        <span class="border"></span>
+                    </div>
+                    <!--Start facilities carousel-->
+                    <div class="facilities-carousel">
+                       
+                        <!------Start single facilities item------->
+                        <div class="single-facilities-item">
+                            <div class="row">
+                                <!--Start single item-->
+                                <div class="col-md-6">
+                                    <div class="single-item">
+                                        <div class="icon-holder">
+                                            <div class="icon-box">
+                                                <div class="icon">
+                                                    <span class="flaticon-transport"></span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="text-holder">
+                                            <h3>24 Hrs Ambulance</h3>
+                                            <p>How all this mistaken idea denoucing pleasure and praisings pain was born complete account expound.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!--End single item-->
+                                <!--Start single item-->
+                                <div class="col-md-6">
+                                    <div class="single-item">
+                                        <div class="icon-holder">
+                                            <div class="icon-box">
+                                                <div class="icon">
+                                                    <span class="flaticon-drink"></span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="text-holder">
+                                            <h3>Food & Dietary</h3>
+                                            <p>The Dietitian plans the diet based on the therapeutic needs of the patient, Local specialties, Continental.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!--End single item-->
+                            </div>
+                            <div class="row">
+                                <!--Start single item-->
+                                <div class="col-md-6">
+                                    <div class="single-item">
+                                        <div class="icon-holder">
+                                            <div class="icon-box">
+                                                <div class="icon">
+                                                    <span class="flaticon-avatar"></span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="text-holder">
+                                            <h3>Special Nurses</h3>
+                                            <p>Special nurse services can be arranged through Nursing , master of human happiness.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!--End single item-->
+                                <!--Start single item-->
+                                <div class="col-md-6">
+                                    <div class="single-item">
+                                        <div class="icon-holder">
+                                            <div class="icon-box">
+                                                <div class="icon">
+                                                    <span class="flaticon-church"></span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="text-holder">
+                                            <h3>Places of Worship</h3>
+                                            <p>There is a temple of Goddess Krishna mariamman in the hospital premises, a Namaz room & Prayer cell</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!--End single item-->
+                            </div>
+                        </div>
+                        <!-------End single facilities item------>
+                        
+                        <!------Start single facilities item------->
+                        <div class="single-facilities-item">
+                            <div class="row">
+                                <!--Start single item-->
+                                <div class="col-md-6">
+                                    <div class="single-item">
+                                        <div class="icon-holder">
+                                            <div class="icon-box">
+                                                <div class="icon">
+                                                    <span class="flaticon-transport"></span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="text-holder">
+                                            <h3>24 Hrs Ambulance</h3>
+                                            <p>How all this mistaken idea denoucing pleasure and praisings pain was born complete account expound.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!--End single item-->
+                                <!--Start single item-->
+                                <div class="col-md-6">
+                                    <div class="single-item">
+                                        <div class="icon-holder">
+                                            <div class="icon-box">
+                                                <div class="icon">
+                                                    <span class="flaticon-drink"></span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="text-holder">
+                                            <h3>Food & Dietary</h3>
+                                            <p>The Dietitian plans the diet based on the therapeutic needs of the patient, Local specialties, Continental.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!--End single item-->
+                            </div>
+                            <div class="row">
+                                <!--Start single item-->
+                                <div class="col-md-6">
+                                    <div class="single-item">
+                                        <div class="icon-holder">
+                                            <div class="icon-box">
+                                                <div class="icon">
+                                                    <span class="flaticon-avatar"></span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="text-holder">
+                                            <h3>Special Nurses</h3>
+                                            <p>Special nurse services can be arranged through Nursing , master of human happiness.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!--End single item-->
+                                <!--Start single item-->
+                                <div class="col-md-6">
+                                    <div class="single-item">
+                                        <div class="icon-holder">
+                                            <div class="icon-box">
+                                                <div class="icon">
+                                                    <span class="flaticon-church"></span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="text-holder">
+                                            <h3>Places of Worship</h3>
+                                            <p>There is a temple of Goddess Krishna mariamman in the hospital premises, a Namaz room & Prayer cell</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!--End single item-->
+                            </div>
+                        </div>
+                        <!-------End single facilities item------>
+                        
+                     
+                        
+                    </div>
+                    <!--End facilities carousel-->    
+                </div>
+            </div>
+
+        </div>
+    </div>    
+</section>
+
+
+<!--Start latest blog area-->  
+<section class="latest-blog-area">
+    <div class="container">
+        <div class="sec-title">
+            <h1>Latest From Blog</h1>
+            <span class="border"></span>
+        </div>
+        <div class="row">
+            <!--Start single blog item-->
+            <div class="col-md-4">
+                <div class="single-blog-item">
+                    <div class="img-holder">
+                        <img src="images/blog/latest-blog-1.jpg" alt="Awesome Image">
+                        <div class="overlay-style-one">
+                            <div class="box">
+                                <div class="content">
+                                    <a href="blog-single.php"><span class="flaticon-plus-symbol"></span></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="text-holder">
+                        <a href="blog-single.php">
+                            <h3 class="blog-title">How to handle your kids’ from mystery ailments</h3>
+                        </a>
+                        <div class="text">
+                            <p>The great explorer of the truth, master builder of human happiness one rejects, dislikes, or avoids pleasure itself because it is pleasure.</p>
+                        </div>
+                        <ul class="meta-info">
+                            <li><a href="#"><i class="fa fa-calendar" aria-hidden="true"></i>February 14, 2017</a></li>
+                            <li><a href="#"><i class="fa fa-comments-o" aria-hidden="true"></i>21 Comments</a></li>
+                        </ul>
+                    </div>    
+                </div>    
+            </div>
+            <!--End single blog item-->
+            <!--Start single blog item-->
+            <div class="col-md-4">
+                <div class="single-blog-item">
+                    <div class="img-holder">
+                        <img src="images/blog/latest-blog-2.jpg" alt="Awesome Image">
+                        <div class="overlay-style-one">
+                            <div class="box">
+                                <div class="content">
+                                    <a href="blog-single.php"><span class="flaticon-plus-symbol"></span></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="text-holder">
+                        <a href="blog-single.php">
+                            <h3 class="blog-title">Negative statin stories add to heart health risk</h3>
+                        </a>
+                        <div class="text">
+                            <p>There anyone who loves or pursues or desires to obtain pains of itself, because it is pain because occasionally circumstances occur.</p>
+                        </div>
+                        <ul class="meta-info">
+                            <li><a href="#"><i class="fa fa-calendar" aria-hidden="true"></i>January 21, 2017</a></li>
+                            <li><a href="#"><i class="fa fa-comments-o" aria-hidden="true"></i>18 Comments</a></li>
+                        </ul>
+                    </div>    
+                </div>    
+            </div>
+            <!--End single blog item-->
+            <!--Start single blog item-->
+            <div class="col-md-4">
+                <div class="single-blog-item">
+                    <div class="img-holder">
+                        <img src="images/blog/latest-blog-3.jpg" alt="Awesome Image">
+                        <div class="overlay-style-one">
+                            <div class="box">
+                                <div class="content">
+                                    <a href="blog-single.php"><span class="flaticon-plus-symbol"></span></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="text-holder">
+                        <a href="blog-single.php">
+                            <h3 class="blog-title">Lung cancer survival rate in England improves</h3>
+                        </a>
+                        <div class="text">
+                            <p>Which toil and pain can procure him some great pleasure. To take a trivial example, which of us  laborious physical exercise.</p>
+                        </div>
+                        <ul class="meta-info">
+                            <li><a href="#"><i class="fa fa-calendar" aria-hidden="true"></i>January 15, 2017</a></li>
+                            <li><a href="#"><i class="fa fa-comments-o" aria-hidden="true"></i>09 Comments</a></li>
+                        </ul>
+                    </div>    
+                </div>    
+            </div>
+            <!--End single blog item-->
+        </div>
+    </div>
+</section>
+<!--End latest blog area-->
+
+
+
+<!--Start Medical Departments area-->
+<section class="medical-departments-area">
+    <div class="container">
+        <div class="sec-title">
+            <h1>Medical Departments</h1>
+            <span class="border"></span>
+        </div>
+        <div class="row">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                <div class="medical-departments-carousel">
+                    <!--Start single item-->
+                    <div class="single-item text-center">
+                        <div class="iocn-holder">
+                            <span class="flaticon-cardiology"></span>    
+                        </div>
+                        <div class="text-holder">
+                            <h3>Cardiology</h3>
+                            <p>How all this mistaken al idea of denouncing pleasure praisings pain was complete.</p>
+                        </div>
+                        <a class="readmore" href="#">Read More</a>
+                    </div>
+                    <!--End single item-->
+                    <!--Start single item-->
+                    <div class="single-item text-center">
+                        <div class="iocn-holder">
+                            <span class="flaticon-lungs"></span>    
+                        </div>
+                        <div class="text-holder">
+                            <h3>Pulmonology</h3>
+                            <p> Who chooses to enjoy a pleasure that has annoying consquences, or one who avoids a pain.</p>
+                        </div>
+                        <a class="readmore" href="#">Read More</a>
+                    </div>
+                    <!--End single item-->
+                    <!--Start single item-->
+                    <div class="single-item text-center">
+                        <div class="iocn-holder">
+                            <span class="flaticon-vagina"></span>    
+                        </div>
+                        <div class="text-holder">
+                            <h3>Gynecology</h3>
+                            <p> Who chooses to enjoy a pleasure that has annoying consquences, or one who avoids a pain.</p>
+                        </div>
+                        <a class="readmore" href="#">Read More</a>
+                    </div>
+                    <!--End single item-->
+                    <!--Start single item-->
+                    <div class="single-item text-center">
+                        <div class="iocn-holder">
+                            <span class="flaticon-neurology"></span>    
+                        </div>
+                        <div class="text-holder">
+                            <h3>Neurology</h3>
+                            <p> Who chooses to enjoy a pleasure that has annoying consquences, or one who avoids a pain.</p>
+                        </div>
+                        <a class="readmore" href="#">Read More</a>
+                    </div>
+                    <!--End single item-->
+                </div>
+            </div>    
+        </div>
+    </div>
+</section>
+<!--End Medical Departments area--> 

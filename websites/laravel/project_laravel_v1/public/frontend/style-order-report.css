@@ -1,0 +1,102 @@
+.getreport{
+    font-size: 1.8rem;
+    background-image: linear-gradient(rgba(16, 94, 197, 0.466), rgba(0,0,0,0.8)), url(img/car-image.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* height: 100vh; */
+    padding: 3rem;
+}
+.getreport .containerd{
+    width: 360px;
+    height: 480px;
+    /* height: 100vh; */
+    margin: 8% auto;
+    background-color: rgba(255, 255, 255, 0.767);
+    border-radius: 5px;
+    position: relative;
+    overflow: hidden;
+}
+.getreport h3{
+    text-align: center;
+    margin-bottom: 40px;
+    color: #777;
+}
+
+.getreport .containerd form{
+    width: 280px;
+    position: absolute;
+    top: 100px;
+    left: 20px;
+    transition: 0.5s;
+}
+.getreport form input{
+    width: 100%;
+    padding: 10px 15px;
+    border: 0;
+    border-bottom: 1px solid #999;
+    outline: none;
+    background: transparent ;
+}
+
+.getreport ::placeholder{
+    color: #777;
+}
+.getreport .btn-box{
+    width: 100%;
+    margin: 30px auto;
+    text-align: center;
+
+}
+.getreport form button {
+    /* min-width: 70px; */
+    /* height: 35px; */
+    padding: 5px 15px;
+    margin: 0 10px;
+    background: linear-gradient(to right, #ff105f, #ffad06);
+    border-radius: 30px;
+    border: 0;
+    outline: none;
+    color: #fff;
+    cursor: pointer;
+}
+
+.getreport #Form2{
+    left: 450px
+}
+
+.getreport #Form3{
+    left: 450px
+}
+.getreport .step-row{
+    width: 360px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    box-shadow: 0 -1px 5px -1px #000;
+    position: relative;
+}
+.getreport .step-col{
+    width: 120px;
+    text-align:center;
+    color: #333;
+    position: relative;
+}
+.getreport #progress{
+    position: absolute;
+    height: 100%;
+    width: 120px;
+    background:  linear-gradient(to right, #ff105f, #ffad06);
+    transition: 1s;
+}
+.getreport #progress::after{
+    content: '';
+    height: 0;
+    width: 0;
+    border-top:20px solid transparent;
+    border-bottom:20px solid transparent;
+    position:absolute;
+    right: -20px;
+    top: 0;
+    border-left: 20px solid #ffad06;
+}

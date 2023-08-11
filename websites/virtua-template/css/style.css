@@ -1,0 +1,77 @@
+header form {
+    /* width: 100vw; */
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+header form :focus{
+    outline: none;
+    
+}
+header form .form-vin{
+    /* width: 20vw; */
+    margin-top: 15px;
+    display: flex;
+}
+
+header form .form-vin .search-header{
+    /* height: 32px; */
+    /* max-width: 50vw; */
+    /* min-width: none; */
+    /* width: ; */
+    padding: 10px;
+    border-radius: 20px 0px 0px 20px;
+    text-align: center;
+    text-transform: uppercase;
+
+    /* font-size: 2rem; */
+    font-weight: 200;
+    color: rgb(68, 67, 67);
+    border: none;
+}
+
+header form .form-vin .search-glass{
+    /* height: 2rem; */
+    width: 5vw;
+    /* width: 20rem; */
+    border: none;
+    display: flex;
+    /* background-color: rgb(0, 140, 255); */
+    background-color: #026bf5;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0px 20px 20px 0px;
+}
+
+header form .form-vin .search-glass img{
+    height: 25px;
+    align-self: center;
+    justify-self: center;
+}
+
+@media (max-width:600px) {
+    header form .form-vin .search-header{
+        height: 2rem;
+        width: 50vw;
+        /* width: 8rem; */
+        border-radius: 20px 0px 0px 20px;
+        text-align: center;
+        text-transform: uppercase;
+    
+        font-size: .8rem;
+        font-weight: 200;
+        color: rgb(68, 67, 67);
+        border: none;
+    }
+    
+    header form .form-vin .search-glass{
+        height: 2rem;
+        width: 15vw;
+        /* width: 20rem; */
+        border: none;
+        /* background-color: rgb(0, 140, 255); */
+        background-color: #026bf5;
+    
+        border-radius: 0px 20px 20px 0px;
+    }
+}

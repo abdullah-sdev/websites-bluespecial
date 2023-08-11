@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/fork-awesome@1.2.0/css/fork-awesome.min.css"
+        integrity="sha256-XoaMnoYC5TH6/+ihMEnospgm0J1PM/nioxbOUdnM8HY=" crossorigin="anonymous">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="style.css">
+    <title>Order-Report Form</title>
+
+    <style>
+        .getreport{
+            font-size: 1.8rem;
+            background-image: linear-gradient(rgba(16, 94, 197, 0.466), rgba(0,0,0,0.8)), url(img/car-image.jpg);
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+            /* height: 100vh; */
+            padding: 3rem;
+        }
+        .getreport .containerd{
+            width: 360px;
+            height: 480px;
+            /* height: 100vh; */
+            margin: 8% auto;
+            background-color: rgba(255, 255, 255, 0.767);
+            border-radius: 5px;
+            position: relative;
+            overflow: hidden;
+        }
+        .getreport h3{
+            text-align: center;
+            margin-bottom: 40px;
+            color: #777;
+        }
+
+        .getreport .containerd form{
+            width: 280px;
+            position: absolute;
+            top: 100px;
+            left: 20px;
+            transition: 0.5s;
+        }
+        .getreport form input{
+            width: 100%;
+            padding: 10px 15px;
+            border: 0;
+            border-bottom: 1px solid #999;
+            outline: none;
+            background: transparent ;
+        }
+
+        .getreport ::placeholder{
+            color: #777;
+        }
+        .getreport .btn-box{
+            width: 100%;
+            margin: 30px auto;
+            text-align: center;
+
+        }
+        .getreport form button{
+            width: 110px;
+            height: 35px;
+            margin: 0 10px;
+            background: linear-gradient(to right, #ff105f, #ffad06);
+            border-radius: 30px;
+            border: 0;
+            outline: none;
+            color: #fff;
+            cursor: pointer;
+        }
+
+        .getreport #Form2{
+            left: 450px
+        }
+
+        .getreport #Form3{
+            left: 450px
+        }
+        .getreport .step-row{
+            width: 360px;
+            height: 40px;
+            display: flex;
+            align-items: center;
+            box-shadow: 0 -1px 5px -1px #000;
+            position: relative;
+        }
+        .getreport .step-col{
+            width: 120px;
+            text-align:center;
+            color: #333;
+            position: relative;
+        }
+        .getreport #progress{
+            position: absolute;
+            height: 100%;
+            width: 120px;
+            background:  linear-gradient(to right, #ff105f, #ffad06);
+            transition: 1s;
+        }
+        .getreport #progress::after{
+            content: '';
+            height: 0;
+            width: 0;
+            border-top:20px solid transparent;
+            border-bottom:20px solid transparent;
+            position:absolute;
+            right: -20px;
+            top: 0;
+            border-left: 20px solid #ffad06;
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="head">
+
+
+        <div class="navbar">
+            <a href="index.html" class="logo"><span>Auto</span>DataRecords</a>
+        </div>
+
+
+    </div>
+
+
+    <main>
+        <div class="section container">
+            <p class="heading-1">Get Full Report <span>Select package</span> & Get your Vehicle History Report
+                instantly!.</p>
+            <p class="heading-1"> </p>
+
+        </div>
+        <div class="getreport">
+
+
+            <!-- <form action="" class="vin-report-form" method="" onsubmit="displayModal(event)">
+
+
+
+                <label for="name">Full Name</label>
+                <input type="dadadsa" name="name" id="" pattern="[A-Za-z\s]+" required>
+
+                <label for="email">Email</label>
+                <input type="email" name="email" id="" required pattern="[A_Za-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$">
+
+                <label for="phone">Phone Number</label>
+                <input type="text" name="phone" id="" required pattern="[0-9._%+-]{8,}">
+
+                <label for="vin_number">Vin</label>
+                <input type="text" name="vin_number" pattern="[a-zA-Z0-9].{16,16}" required id="" disabled value="">
+
+                <label for="country">Select Country</label>
+                <select name="country" id="">
+
+
+
+                </select>
+
+                <label for="package">Select package</label>
+
+
+
+                <div id="smart-button-container">
+                    <div style="text-align: center;">
+                        <div style="margin-bottom: 1.25rem;">
+                            <p></p>
+                            <select id="item-options" style="width:100%" name="package">
+                                <option value="basic" price="29">basic - 29 USD</option>
+                                <option value="silver" price="49">silver - 49 USD</option>
+                                <option value="gold" price="79">gold - 79 USD</option>
+                                <option value="platinum" price="119">platinum - 119 USD</option>
+                            </select>
+                            <select style="visibility: hidden" id="quantitySelect"></select>
+                        </div>
+                        <div id="paypal-button-container"></div>
+                    </div>
+                </div>
+
+
+
+                <button type="submit">Proceed</button>
+
+            </form> -->
+
+            <div class="containerd">
+                <form action="" id="Form1">
+                    <h3>CREATE ACCOUNT</h3>
+                    <input type="text" name="" id="" placeholder="Email" required>
+                    <input type="password" name="" id="" placeholder="Password" required>
+                    <input type="password" name="" id="" placeholder="Confirm Password" required>
+                    <div class="btn-box">
+                        <button type="button" id="Next1">Next</button>
+                    </div>
+                </form>
+        
+                <form action=""  id="Form2">
+                    <h3>SOCIAL LINKS</h3>
+                    <input type="text" name="" id="" placeholder="Medium">
+                    <input type="text" name="" id="" placeholder="Github">
+                    <input type="text" name="" id="" placeholder="Linkedin">
+        
+        
+                    
+                    <div class="btn-box">
+                        <button type="button" id="Back1">Back</button>
+                        <button type="button" id="Next2">Next</button>
+                    </div>
+                </form>
+        
+                <form action=""  id="Form3">
+                    <h3>PERSONAL INFO</h3>
+                    <input type="text" name="" id="" placeholder="First Name" required>
+                    <input type="text" name="" id="" placeholder="Last Name" required>
+                    <input type="text" name="" id="" placeholder="Phone" required>
+                   
+                    <div class="btn-box">
+                        <button type="button" id="Back2">Back</button>
+                        <button type="button">Submit</button>
+                    </div>
+                </form>
+        
+                <div class="step-row">
+                    <div id="progress"></div>
+                    <div class="step-col"><small>Step1</small></div>
+                    <div class="step-col"><small>Step2</small></div>
+                    <div class="step-col"><small>Step3</small></div>
+                </div>
+            </div>
+
+        </div>
+
+    </main>
+
+    <footer>
+
+        <div class="links">
+            <a href="terms-of-service.html">Terms of service</a>
+            <a href="">Privacy policy and cookies</a>
+            <!-- <a href="">Contact</a> -->
+
+        </div>
+
+        <div class="copyrights">
+            &copy; 2023 AutoDataRecords All rights reserved.
+        </div>
+
+    </footer>
+
+    <script>
+        var Form1 = document.getElementById("Form1");
+        var Form2 = document.getElementById("Form2");
+        var Form3 = document.getElementById("Form3");
+
+        var Next1 = document.getElementById("Next1");
+        var Next2 = document.getElementById("Next2");
+        var Back1 = document.getElementById("Back1");
+        var Back2 = document.getElementById("Back2");
+
+        var progress = document.getElementById("progress");
+
+        Next1.onclick = function(){
+            Form1.style.left = "-450px";
+            Form2.style.left = "40px";
+            progress.style.width ="240px";
+        }
+        Back1.onclick = function(){
+            Form1.style.left = "40px";
+            Form2.style.left = "450px";
+            progress.style.width ="120px";
+        }
+        Next2.onclick = function(){
+            Form2.style.left = "-450px";
+            Form3.style.left = "40px";
+            progress.style.width ="360px";
+        }
+        Back2.onclick = function(){
+            Form2.style.left = "40px";
+            Form3.style.left = "450px";
+            progress.style.width ="240px";
+        }
+    </script>
+
+
+</body>
+
+</html>
